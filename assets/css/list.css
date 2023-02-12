@@ -1,0 +1,32 @@
+.list {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.list tr:nth-child(even){
+    background-color: #efefef;
+}
+
+.list tr th {
+    text-align: left;
+    vertical-align: top;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.list tr td {
+    vertical-align: top;
+}
+
+.list tr td, .list tr th {
+    padding: .5rem;
+}
+
+.list tr td:nth-child(1) {
+    width: 50%;
+}
+
+.list tr td:nth-child(2) {
+    width: 25%;
+}
