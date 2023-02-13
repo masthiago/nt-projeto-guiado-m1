@@ -12,8 +12,18 @@
     grid-template-columns: 1fr 1fr;
 }
 
+.form div label {
+    padding: .5rem;
+}
+
 .form .big-label {
     text-align: right;
+}
+
+.form input[type="text"] {
+    padding: .25rem;
+    border-radius: .5rem;
+    border: 1px solid #a0a0a0;
 }
 
 .xp div {
@@ -25,7 +35,38 @@
 }
 
 .submit input {
+    background-color: #0000c9;
+    border: none;
+    border-radius: .5rem;
+    color: #fff;
+    font-weight: bold;
     grid-column: 2 / 3;
     justify-self: end;
+    padding: .5rem;
     width: 50%;
+}
+
+@media screen and (max-width: 640px) {
+    .form {
+        width: 95%;
+    }
+
+    .form div {
+        display: flex;
+        flex-direction: column;
+    }
+    .form .big-label {
+        text-align: center;
+    }
+
+    .xp div {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .submit {
+        align-items: center;
+        margin-top: 2rem;
+    }
 }

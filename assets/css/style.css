@@ -28,4 +28,11 @@
     text-align: center;
     text-decoration: none;
     width: 6rem;
+    border-radius: .5rem;
+}
+
+@media screen and (max-width: 640px) {
+    .menu {
+        gap: 5%;
+    }
 }
