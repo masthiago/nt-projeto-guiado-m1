@@ -25,7 +25,29 @@
         <a href="form.html">Cadastrar</a>
     </div>
 
-    <section>Cadastrar aluno</section>
+    <section>
+        <form class="form">
+            <div>
+                <label for="name" class="big-label">Nome:</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+            <div>
+                <label for="phone"  class="big-label">Telefone:</label>
+                <input type="text" name="phone" id="phone" required>
+            </div>
+            <div class="xp">
+                <label  class="big-label">Experiência prévia:</label>
+                <div>
+                    <input type="radio" name="xp" id="xp-yes" value="xp-yes"><label for="xp-yes">Sim</label>
+                    <br>
+                    <input type="radio" name="xp" id="xp-no" value="xp-no"><label for="xp-no">Não</label>
+                </div>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Salvar">
+            </div>
+        </form>
+    </section>
     
 </body>
 

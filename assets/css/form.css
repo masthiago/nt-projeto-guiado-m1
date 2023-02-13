@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    row-gap: .5rem;
+    width: 50%;
+}
+
+.form div {
+    column-gap: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form .big-label {
+    text-align: right;
+}
+
+.xp div {
+    display: block;
+}
+
+.submit {
+    align-items: end;
+}
+
+.submit input {
+    grid-column: 2 / 3;
+    justify-self: end;
+    width: 50%;
+}

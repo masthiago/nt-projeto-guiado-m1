@@ -1,6 +1,6 @@
 .list {
-    width: 100%;
     border-spacing: 0;
+    width: 100%;
 }
 
 .list tr:nth-child(even){
@@ -8,11 +8,11 @@
 }
 
 .list tr th {
-    text-align: left;
-    vertical-align: top;
     background-color: #000000;
     color: #ffffff;
     padding: 1rem;
+    text-align: left;
+    vertical-align: top;
 }
 
 .list tr td {

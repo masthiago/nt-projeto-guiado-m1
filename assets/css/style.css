@@ -1,9 +1,10 @@
 @import url(list.css);
+@import url(form.css);
 
 * {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cabecalho {
@@ -21,7 +22,10 @@
 .menu a {
     border: 1px solid #0000c9;
     color: #0000c9;
+    display: inline-block;
     font-weight: bold;
     padding: 0.5rem;
+    text-align: center;
     text-decoration: none;
+    width: 6rem;
 }
